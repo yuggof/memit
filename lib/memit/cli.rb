@@ -16,7 +16,7 @@ module Memit
       end
     end
 
-    desc 'setdata', 'Sets data'
+    desc 'setdata', 'Sets data file path'
     def setdata(path)
       unless File.exist?(path)
         puts 'Data file does not exist.'
@@ -29,7 +29,7 @@ module Memit
       config_repository.save(c)
     end
 
-    desc 'whichdata', 'Prints'
+    desc 'whichdata', 'Prints data file path'
     def whichdata
       c = config_repository.load
 
