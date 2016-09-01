@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'memit'
-  s.version = '0.0.0'
+  s.version = '0.0.1'
   s.summary = 'Do you have to memorize something? Memit can help you!'
   s.date = '2016-06-11'
   s.authors = ['Piotr Leniec']
