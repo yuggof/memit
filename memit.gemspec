@@ -16,4 +16,7 @@ Gem::Specification.new do |s|
     data/prepositions.csv
   ]
   s.executables << 'memit'
+
+  s.add_runtime_dependency 'thor', '0.19.1'
+  s.add_development_dependency 'rspec', '3.5.0'
 end
