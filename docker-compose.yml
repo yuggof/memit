@@ -1,8 +1,0 @@
-version: '2'
-services:
-  memit:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
-    volumes:
-      - .:/home/memit/app
